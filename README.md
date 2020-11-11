@@ -5,6 +5,7 @@ Converts word document into excel and organizes information
 python-docx
 xlsxwriter
 
+# rules made 
 if a cell on that column is blank you skip it
 •	if name is missing, you skip
 •	If name is there but no phone number and/or address you still input the information
