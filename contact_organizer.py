@@ -1,8 +1,8 @@
 import docx;
 import xlsxwriter;
-doc = docx.Document("G:/Free Lancer/3310264_Daily Bid Sheet 2_12.docx");
+doc = docx.Document("G:/Ronald/3310264_Daily Bid Sheet 2_12.docx");
 t = doc.tables
-w = xlsxwriter.Workbook("G:/Free Lancer/test.xlsx");
+w = xlsxwriter.Workbook("G:/Ronald/test.xlsx");
 w1 = w.add_worksheet()
 for t1 in t:
 		col = 0;
